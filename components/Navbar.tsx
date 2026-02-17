@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="glass-nav rounded-[40px] px-8 py-4 flex items-center justify-between transition-all duration-300 relative">
                 <Link href="/" className="flex items-center gap-2 group">
                     <Gem className="w-8 h-8 text-white transition-transform duration-300 group-hover:scale-110" />
-                    <span className="text-white font-logo text-[25px] font-normal leading-none tracking-normal">
+                    <span className="text-white navbar-brand">
                         ANTIQUE GEM
                     </span>
                 </Link>
@@ -23,7 +23,7 @@ export default function Navbar() {
                         <Link
                             key={item}
                             href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                            className="text-white hover:text-white/70 transition-colors duration-300 font-montserrat font-normal text-[22.69px] leading-[22px] tracking-normal"
+                            className="text-white hover:text-white/70 transition-colors duration-300 navbar-item"
                         >
                             {item}
                         </Link>
@@ -47,7 +47,7 @@ export default function Navbar() {
                             <Link
                                 key={item}
                                 href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                                className="text-white font-montserrat font-normal text-[22.69px] leading-[22px] tracking-normal hover:text-white/70 transition-colors"
+                                className="text-white navbar-item hover:text-white/70 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {item}

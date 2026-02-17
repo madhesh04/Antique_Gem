@@ -30,7 +30,7 @@ export default function ProductGrid() {
     return (
         <section id="products-section" className="bg-light-bg py-12 md:py-24">
             <div className="mx-auto w-[90%] max-w-7xl px-8">
-                <h2 className="text-center text-primary font-logo text-[30px] md:text-[50px] font-normal leading-tight md:leading-[62.99px] tracking-normal uppercase mb-16 px-4">
+                <h2 className="text-center text-primary section-title mb-16 px-4">
                     Our Products
                 </h2>
 
@@ -57,7 +57,7 @@ export default function ProductGrid() {
                                 </div>
 
 
-                                <h3 className="mt-6 text-center text-text-secondary font-medium tracking-wide">
+                                <h3 className="mt-6 text-center text-text-secondary product-name">
                                     {product.name}
                                 </h3>
                             </motion.div>
@@ -68,7 +68,7 @@ export default function ProductGrid() {
                 <div className="mt-16 text-center">
                     <button
                         onClick={() => setShowAll(!showAll)}
-                        className="px-12 py-4 bg-primary text-white rounded-[30px] hover:bg-primary-dark transition-colors duration-300 text-base font-medium tracking-wider shadow-lg hover:shadow-xl"
+                        className="px-12 py-4 bg-primary text-white rounded-[30px] hover:bg-primary-dark transition-colors duration-300 text-base primary-button shadow-lg hover:shadow-xl"
                     >
                         {showAll ? "See Less" : "See More"}
                     </button>

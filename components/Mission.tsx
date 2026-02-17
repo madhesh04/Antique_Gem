@@ -14,11 +14,11 @@ export default function Mission() {
                     transition={{ duration: 0.8 }}
                     className="space-y-8"
                 >
-                    <h2 className="text-primary font-display text-3xl md:text-[32px] font-semibold tracking-[1.5px] uppercase mb-12">
+                    <h2 className="text-primary section-title mb-12">
                         OUR MISSION:
                     </h2>
 
-                    <div className="space-y-8 text-text-dark font-sans text-base md:text-[18px] leading-[1.6] font-normal tracking-[0.2px] text-justify">
+                    <div className="space-y-8 text-text-dark font-normal text-[20px] md:text-[27.03px] leading-[1.2] md:leading-[100%] tracking-normal text-justify">
                         <p>
                             To make purchasing real, untreated gemstones transparent, secure, and accessible, no matter where you live.
                         </p>
