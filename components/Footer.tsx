@@ -78,7 +78,7 @@ export default function Footer({ className }: FooterProps) {
                 <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-white/60">
                     <p>&copy; {new Date().getFullYear()} Antique Gem. All Right Reserved</p>
                     <div className="mt-4 md:mt-0">
-                         <p>Made by <a href="#" className="underline hover:text-white">Pictaads</a>.</p>
+                         <p>Made by <a href="https://pictaads.com/" target = "_blank"className="underline hover:text-white">Pictaads</a>.</p>
                     </div>
                 </div>
             </div>
